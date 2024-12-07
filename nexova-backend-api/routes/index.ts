@@ -1,0 +1,6 @@
+export { default as healthRouter } from "./health"
+export { default as userRouter } from "./user"
+export { default as adminRouter } from "./admin"
+export { default as deviceRouter } from "./sensorDevice"
+export { default as sensorRouter } from "./sensorData"
+export { default as taskRouter } from "./tasks"
