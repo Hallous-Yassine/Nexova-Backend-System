@@ -5,14 +5,14 @@ import random  # For simulating sensor data
 from datetime import datetime, timedelta
 
 # Use the full path to your JSON file
-service_account_path = r"C:\Users\YASSINE\Documents\GitHub\NexovaTeam\IOT-generators\tsyp-industrial-challenge-firebase-adminsdk-1zm0f-5ca0667b68.json"
+service_account_path = r"path to your JSON file"
 
 # Initialize the credentials using the JSON file
 cred = credentials.Certificate(service_account_path)
 
 # Initialize the Firebase Admin SDK
 firebase_admin.initialize_app(cred, {
-    "databaseURL": "https://tsyp-industrial-challenge-default-rtdb.europe-west1.firebasedatabase.app/"
+    "databaseURL": "databaseURL"
 })
 
 print("Firebase initialized successfully!")
